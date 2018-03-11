@@ -4,11 +4,30 @@ PyTunes
 
 A GUI implementation for searching song and saving lyrics in a text file.
 
+It uses bag of words model.
 Vector space model implementation considering the cosine score. 
 The weight of document has been calculated using Euclidean normalization. 
 The length of lyrics and presence of uncommon words has been accounted.
 To account for spelling suggestion in case of absence of such a word, distance package has been used.
 In case of opting for console, input can be given via voice as well. speech_recognition package has been used for it.
+
+Usage
+--------
+    First run Pre-process.py
+    Then if you are using console to search for songs: run load_pickle.py
+    Else run PyTunes.py
+
+Required Packages
+------------------
+1.	tkinter
+2.	speech_recognition
+3.	nltk
+4.	distance
+5.	pickle
+6.	time
+7.	math
+8.	re
+9.	os
 
 General Description
 -------------------
